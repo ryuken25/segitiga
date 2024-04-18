@@ -1,0 +1,30 @@
+{
+  "name": "kenshi25-segitiga",
+  "version": "1.0.1",
+  "description": "Good Fishing",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/ryuken25/segitiga.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "go"
+  ],
+  "author": "ryuuken25",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/prompt-sync": "^4.2.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.19",
+    "prompt-sync": "^4.2.0"
+  }
+}
